@@ -1,0 +1,120 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('./main/Rectangle-36.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%; 
+    min-height: 100vh;
+    overflow-x: hidden; 
+    z-index: 0;
+    /* border: solid 4px red;     this is temporary debugging just to see where it is */
+}
+/* Parent container */
+header {
+    position: relative;
+    height: 52px;
+    width: 100%; 
+    overflow: hidden;
+    margin: 0 auto;
+    object-fit: cover;
+    z-index: 10;
+   
+}
+.top-nav-bar{ 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 52px;
+    width: 100%; 
+    object-fit: cover;
+    display: block;
+    z-index: 9;
+}
+.top-nav-info{
+    position: fixed;
+    border: solid 4px red;
+    top: 68px;
+    left: 225px;
+    z-index: 10;
+}
+.background-wave-gradient{
+    position: fixed;
+    top: -4px;
+    left: 0;
+    width: 100%; 
+    height: 760px;
+    z-index: 0;
+} 
+.top-nav-title{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    padding-top: 19px;
+    padding-left: 79px;
+    object-fit: contain;
+    z-index: 10;
+}
+.top-nav-side-effects{
+    position: fixed;
+    top: 119px;
+    left: 262px;
+    object-fit: contain;
+    z-index: 10;
+    border: solid 4px green;
+}
+.top-hero-welcome{
+    position: fixed;
+    top: 226px;
+    left: 242px;
+    object-fit: contain;
+    z-index: 10;
+    border: solid 4px green;
+}
+.top-hero-stages{
+    position: fixed;
+    top: 396px;
+    left: 188px;
+    object-fit: contain;
+    z-index: 10;
+    border: solid 4px green;
+}
+.top-hero-bionical-health{
+    position: fixed;
+    top: 550px;
+    left: 465px;
+    object-fit: contain;
+    z-index: 10;
+    border: solid 4px green;
+}
+
+
+@media (max-width: 768px){
+    body {
+        background-attachment: scroll; 
+        background-size: cover;
+    }
+    
+    header {
+        padding: 10px;
+        text-align: center;
+    }
+    
+    main {
+        padding: 15px;
+    }
+    
+    section {
+        margin-bottom: 20px;
+        padding: 15px;
+    }
+    
+    footer {
+        padding: 15px;
+        text-align: center;
+    }
+}
