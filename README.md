@@ -2,10 +2,6 @@
 
 This is my submission for the Junior Frontend Developer practical task. The goal was to build a responsive, pixel-perfect medical website landing page based on the provided design files.
 
-## ✨ Live Demo
-
-**The live, deployed website can be viewed here:** [**INSERT YOUR GITHUB PAGES LINK HERE**]
-
 ---
 
 ### Task Requirements Checklist
