@@ -3,7 +3,7 @@
 This is my submission for the Junior Frontend Developer practical task. The goal was to build a responsive, pixel-perfect medical website landing page based on the provided design files.
 
 
-Here is a linve link [ https://medical-landingartery.netlify.app/ ]
+Here is a live link [ https://medical-landingartery.netlify.app/ ]
 
 ---
 
